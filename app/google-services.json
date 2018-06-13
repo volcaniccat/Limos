@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "728343179849",
+    "firebase_url": "https://limos-c60d4.firebaseio.com",
+    "project_id": "limos-c60d4",
+    "storage_bucket": "limos-c60d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728343179849:android:ab6832dfa4112f0f",
+        "android_client_info": {
+          "package_name": "com.volcanicat.limos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728343179849-6h5d8vr5ne82f079lbmehnmns5r0hqsf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.volcanicat.limos",
+            "certificate_hash": "64ccf3d91fa2da4ec9cdb37bb006e8e38fa574cf"
+          }
+        },
+        {
+          "client_id": "728343179849-m4fst02jnq0uia43k59h5s6j7a889c3j.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "728343179849-m4fst02jnq0uia43k59h5s6j7a889c3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhTogT35oHLUXbsyorZYQoVw4TyY6Okaw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728343179849-m4fst02jnq0uia43k59h5s6j7a889c3j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
