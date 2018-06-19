@@ -42,7 +42,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            app:buttonColor="@color/btnSignUp"
+            app:fButtonColor="@color/btnSignUp"
             app:shadowColor="@android:color/black"
             app:shadowEnabled="true"
             app:shadowHeight="5dp"/>
@@ -54,7 +54,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            app:buttonColor="@color/btnSignUpActive"
+            app:fButtonColor="@color/btnSignUpActive"
             app:shadowColor="@android:color/black"
             app:shadowEnabled="true"
             app:shadowHeight="5dp"/>
