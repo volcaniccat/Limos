@@ -1,6 +1,7 @@
 package com.volcanicat.limos;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,6 +16,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.rengwuxian.materialedittext.MaterialEditText;
+import com.volcanicat.limos.Common.Common;
 
 import Modelo.User;
 
@@ -50,7 +52,13 @@ public class SignIn extends AppCompatActivity {
                         mDialog.dismiss();
                         User user = dataSnapshot.child( edtPhone.getText().toString() ).getValue( User.class );
                         if (user.getPassword().equals( edtPassword.getText().toString() )) {
-                            Toast.makeText( SignIn.this, "Se ha iniciado sesion", Toast.LENGTH_SHORT ).show();
+                            {
+                                Intent homeIntent =new Intent(SignIn.this,Home.class);
+                                Common.currentUser = user;
+                                startActivity(homeIntent);
+                                finish();
+                            }
+
                         } else {
                             Toast.makeText( SignIn.this, "Contraseña incorrecta", Toast.LENGTH_SHORT ).show();
                         }
