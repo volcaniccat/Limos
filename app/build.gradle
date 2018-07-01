@@ -26,7 +26,8 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     //noinspection GradleCompatible
 
-
+    implementation 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+    implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
     implementation 'com.cepheuen.elegant-number-button:lib:1.0.2'
     implementation 'com.android.support:design:27.1.1'
     implementation 'com.android.support:appcompat-v7:27.1.1'
