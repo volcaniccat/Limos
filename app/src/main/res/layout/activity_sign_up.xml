@@ -18,6 +18,7 @@
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:id="@+id/edtPhone"
+            android:gravity="center"
             android:hint="Numero de telefono"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -35,6 +36,7 @@
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:id="@+id/edtName"
+            android:gravity="center"
             android:hint="Nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -52,6 +54,7 @@
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:id="@+id/edtPassword"
+            android:gravity="center"
             android:hint="Contraseña"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -66,21 +69,22 @@
             app:met_primaryColor="@android:color/white"
             app:met_singleLineEllipsis="true"
             />
-    </LinearLayout>
 
-    <info.hoang8f.widget.FButton
-        android:id="@+id/btnSingUp"
-        android:text="Sign Up"
-        android:textColor="@android:color/white"
-        android:layout_marginRight="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_alignParentBottom="true"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        app:fButtonColor="@color/btnSignUp"
-        app:shadowColor="@android:color/black"
-        app:shadowEnabled="true"
-        app:shadowHeight="5dp"/>
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnSingUp"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Crear cuenta"
+            android:textColor="@android:color/white"
+            app:fButtonColor="@color/btnSignUpActive"
+            app:shadowColor="@android:color/black"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp" />
+    </LinearLayout>
 
 </RelativeLayout>

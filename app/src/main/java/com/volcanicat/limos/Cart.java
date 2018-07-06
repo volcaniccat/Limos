@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
@@ -59,6 +60,7 @@ public class Cart extends AppCompatActivity {
 
 
         txtTotalPrice = (TextView)findViewById(R.id.total);
+
         btnPlace = (FButton)findViewById(R.id.btnPlaceOrder);
 
         btnPlace.setOnClickListener(new View.OnClickListener() {
@@ -106,7 +108,7 @@ public class Cart extends AppCompatActivity {
 
                 //Delete cart
                 new Database(getBaseContext()).cleanCart();
-                Toast.makeText(Cart.this, "Thank you, Order Place", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Cart.this, "Gracias, orden creada", Toast.LENGTH_SHORT).show();
                 finish();
             }
         });

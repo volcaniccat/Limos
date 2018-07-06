@@ -17,6 +17,7 @@
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:id="@+id/edtPhone"
+            android:gravity="center"
             android:hint="Numero de telefono"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -34,6 +35,7 @@
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:id="@+id/edtPassword"
+            android:gravity="center"
             android:hint="Contraseña"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -58,31 +60,33 @@
             android:textColor="@android:color/white"
             app:cbd_strokeColor="@android:color/white"
             app:cbd_tickColor="@color/colorPrimaryDark" />
-       <!-- <com.rey.material.widget.CheckBox
-            android:id="@+id/ckbRecuerdame"
-            android:layout_width="wrap_content"
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnSingIn"
+            android:layout_width="233dp"
             android:layout_height="wrap_content"
-            style="@style/Material.Drawable.CheckBox"
-            android:gravity="center"
-            android:text="Recuerdame"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Iniciar sesión"
             android:textColor="@android:color/white"
-            app:cbd_strokeColor="@android:color/white"
-            app:cbd_tickColor="@color/colorPrimaryDark"
-            /> -->
+            app:fButtonColor="@color/btnSignUpActive"
+            app:shadowColor="@android:color/black"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp" />
+        <!-- <com.rey.material.widget.CheckBox
+             android:id="@+id/ckbRecuerdame"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             style="@style/Material.Drawable.CheckBox"
+             android:gravity="center"
+             android:text="Recuerdame"
+             android:textColor="@android:color/white"
+             app:cbd_strokeColor="@android:color/white"
+             app:cbd_tickColor="@color/colorPrimaryDark"
+             /> -->
     </LinearLayout>
 
-    <info.hoang8f.widget.FButton
-        android:id="@+id/btnSingIn"
-        android:text="Sign In"
-        android:textColor="@android:color/white"
-        android:layout_marginRight="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_alignParentBottom="true"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        app:fButtonColor="@color/btnSignUpActive"
-        app:shadowColor="@android:color/black"
-        app:shadowEnabled="true"
-        app:shadowHeight="5dp"/>
 </RelativeLayout>

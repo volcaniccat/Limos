@@ -14,52 +14,54 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:src="@drawable/logo"
             android:layout_width="300dp"
-            android:layout_height="300dp"/>
+            android:layout_height="126dp"
+            android:src="@drawable/logo" />
 
         <TextView
-            android:gravity="center"
             android:id="@+id/txtSlogan"
-            android:textColor="@android:color/white"
-            android:textStyle="bold"
-            android:textSize="25dp"
-            android:text="@string/slogan"
             android:layout_width="300dp"
-            android:layout_height="wrap_content"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_alignParentBottom="true"
-        android:weightSum="2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <info.hoang8f.widget.FButton
-            android:id="@+id/btnSingUp"
-            android:text="Sign Up"
+            android:layout_height="116dp"
+            android:gravity="center"
+            android:text="@string/slogan"
             android:textColor="@android:color/white"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            app:fButtonColor="@color/btnSignUp"
-            app:shadowColor="@android:color/black"
-            app:shadowEnabled="true"
-            app:shadowHeight="5dp"/>
-        <info.hoang8f.widget.FButton
-            android:id="@+id/btnSingIn"
-            android:text="Sign in"
-            android:textColor="@android:color/white"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            app:fButtonColor="@color/btnSignUpActive"
-            app:shadowColor="@android:color/black"
-            app:shadowEnabled="true"
-            app:shadowHeight="5dp"/>
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/btnSingUp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:text="Sign Up"
+                android:textColor="@android:color/white"
+                app:fButtonColor="@color/btnSignUp"
+                app:shadowColor="@android:color/black"
+                app:shadowEnabled="true"
+                app:shadowHeight="5dp" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/btnSingIn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:text="Sign in"
+                android:textColor="@android:color/white"
+                app:fButtonColor="@color/btnSignUpActive"
+                app:shadowColor="@android:color/black"
+                app:shadowEnabled="true"
+                app:shadowHeight="5dp" />
+        </LinearLayout>
+
     </LinearLayout>
 
 </RelativeLayout>
