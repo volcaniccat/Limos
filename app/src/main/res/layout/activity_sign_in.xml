@@ -48,6 +48,27 @@
             app:met_primaryColor="@android:color/white"
             app:met_singleLineEllipsis="true"
             />
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/ckbRecuerdame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Material.Drawable.CheckBox"
+            android:gravity="center"
+            android:text="Recuerdame"
+            android:textColor="@android:color/white"
+            app:cbd_strokeColor="@android:color/white"
+            app:cbd_tickColor="@color/colorPrimaryDark" />
+       <!-- <com.rey.material.widget.CheckBox
+            android:id="@+id/ckbRecuerdame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Material.Drawable.CheckBox"
+            android:gravity="center"
+            android:text="Recuerdame"
+            android:textColor="@android:color/white"
+            app:cbd_strokeColor="@android:color/white"
+            app:cbd_tickColor="@color/colorPrimaryDark"
+            /> -->
     </LinearLayout>
 
     <info.hoang8f.widget.FButton
